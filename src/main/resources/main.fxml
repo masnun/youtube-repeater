@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.web.WebView?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0"
+      prefWidth="600.0" fx:controller="com.masnun.controllers.MainController"
+      xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <WebView fx:id="webView" layoutX="-1.0" layoutY="-2.0" prefHeight="369.0" prefWidth="600.0"/>
+        <Button fx:id="playButton" layoutX="455.0" layoutY="377.0" mnemonicParsing="false" prefHeight="48.0"
+                prefWidth="111.0" onMouseClicked="#handlePlayButtonClick" text="Play"/>
+        <TextField fx:id="urlInput" layoutX="37.0" layoutY="377.0" prefHeight="48.0" prefWidth="390.0"/>
+    </children>
+</Pane>
